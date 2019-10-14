@@ -4,7 +4,7 @@ from Enemies import damagedone, generatepokemon
 def chooseyourstarter():
     '''allows the user to choose their starter pokemon'''
     print("Choose your starter pokemon!")
-    print("Type 1 for Chimchar, the fiersty fire-type chimp!")
+    print("Type 1 for Chimchar, the fiesty fire-type chimp!")
     print("Type 2 for Piplup, the cool water-type penguin!")
     print("Type 3 for Turtwig, the humble grass-type turtle!\n")
     choice = input("Enter the number of your choice: ")
