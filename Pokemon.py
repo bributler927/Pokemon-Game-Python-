@@ -148,7 +148,7 @@ def runGame():
             print(pokemon['name']+ " HP: " + str(pokemon['HP']))
             print(enemy['name']+ " HP: " + str(enemy['HP']) + "\n")
             if health < 0:
-                print(pokemon['name'] + " fainted. :(/n")
+                print(pokemon['name'] + " fainted. :(\n")
                 print("You encountered " + str(pokecount) + " pokemon.")
                 break
 
